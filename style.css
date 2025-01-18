@@ -23,6 +23,7 @@
     flex-direction: column;
     row-gap: 30px;
  }
+ 
 
  .main>.section{
     width: 100%;
@@ -34,6 +35,13 @@
     align-items: center;
     justify-content: center;
 
+ }
+ .main .porfolio_logo{
+   position: relative;
+   bottom: 320px;
+   right: 30px;
+     
+    
  }
  .main nav{
     width: 50%;
