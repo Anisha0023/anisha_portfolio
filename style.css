@@ -26,7 +26,7 @@
  
 
  .main>.section{
-    width: 90%;
+    width: 70%;
     /* height: 100vh; */
  }
  .main .home{
@@ -114,13 +114,13 @@ span{
    height: 50px;
 }
 .home .profile-pic{
-   height: 500px;
+   height: 450px;
    width: 400px;
    /* background-color: cyan; */
    border-radius: 50%;
    position: relative;
-   top: 50px;
-   left: 170px;
+   top: 20px;
+   left: 100px;
    display: flex;
    align-items: center;
    backdrop-filter: blur(5px);
@@ -148,25 +148,27 @@ span{
    height: 450px;
    border: 10px cyan solid;
    border-radius: 50%;
+   position: relative;
+   right: 40px;
    box-shadow: 1px 1px 10px 3px cyan;
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: space-evenly;
    overflow: hidden;
 }
 .about-pic img{
    height: 100%;
 }
 .about-content {
-   width: 40%;
+   width: 60%;
    font-size: 1.2rem;
 }
 .service,.project{
    /* height: fit-content; */
    display: flex;
    align-items: center;
-   justify-content: space-evenly;
-   gap: 180px;
+   justify-content: space-between;
+   gap: 100px;
    flex-wrap: wrap;
 
 }
@@ -201,7 +203,9 @@ span{
 .service .card1 h1{
    position: relative;
    top: 20px;
-   left: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .service img:hover{
    width: 200px;
@@ -212,7 +216,8 @@ span{
 
 .project .card2{
    overflow: hidden;
-   margin-top: 100px;
+   position: relative;
+   top: 200px;
 }
 
 .project .card2:hover{
@@ -255,7 +260,7 @@ span{
    
 }
 .section_contact{
-   margin-top: 100px;
+   margin-top: 300px;
    h1{
       padding-left: 150px;
       padding-top: 50px;
