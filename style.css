@@ -21,12 +21,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    row-gap: 30px;
+    /* row-gap: 30px; */
  }
  
 
  .main>.section{
-    width: 100%;
+    width: 90%;
     /* height: 100vh; */
  }
  .main .home{
@@ -38,20 +38,21 @@
  }
  .main .porfolio_logo{
    position: relative;
-   bottom: 320px;
-   right: 30px;
+   bottom: 200px;
+   right: 0px;
      
     
  }
- .main nav{
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    position: fixed;
-    top: 0;
-    right: 0;
-
- }
+ nav {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   position: fixed;
+   top: 0;
+   right: 0;
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px 0;
+}
  .main nav a{
     text-decoration: none;
     color: white;
@@ -118,6 +119,7 @@ span{
    /* background-color: cyan; */
    border-radius: 50%;
    position: relative;
+   top: 50px;
    left: 170px;
    display: flex;
    align-items: center;
@@ -126,8 +128,8 @@ span{
 .profile-pic img{
    height: 90%;
    margin-top: 40px;
-   position: relative;
-   left: 100px;
+   /* position: relative; */
+   /* left: 60px; */
 
 }
 .home .profile-pic:hover img{
@@ -160,39 +162,46 @@ span{
    font-size: 1.2rem;
 }
 .service,.project{
-   height: fit-content;
+   /* height: fit-content; */
    display: flex;
    align-items: center;
    justify-content: space-evenly;
-   row-gap: 30px;
+   gap: 180px;
    flex-wrap: wrap;
 
 }
-.card{
+.card2{
    height: 400px;
-   width: 350px;
+   width: 400px;
    /* border: 1px solid cyan; */
    border-radius: 15px;
    
 }
+.card1{
+   height: 200px;
+   width: 150px;
+   border-radius: 15px;
+   
+}
 
-.service .card img{
+.service .card1 img{
    width: 150px;
    height: 150px;
-   margin-top: 50px;
-   margin-left: 10px;
+   margin-top: 40px;
+   /* margin-left: 10px; */
    border-radius: 50%;
    border: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+
+   
+
 }
-.service .card h1{
+.service .card1 h1{
    position: relative;
    top: 20px;
-   left: 110px;
-}
-.service .card img{
-   position: relative;
-   left: 100px;
-
+   left: 30px;
 }
 .service img:hover{
    width: 200px;
@@ -201,25 +210,25 @@ span{
    box-shadow: 1px 2px 5px 10px cyan	;
 }
 
-.project .card{
+.project .card2{
    overflow: hidden;
    margin-top: 100px;
 }
 
-.project .card:hover{
+.project .card2:hover{
    border: 2px cyan solid;
    box-shadow: 1px 5px 10px 5px cyan;
 }
-.project .card p,ul li{
+.project .card2 p,ul li{
    color: black;
    font-size: 0.9rem;
 }
 
 .project img{
-   height: 50%;
+   height: 70%;
 }
 
-.project .card .info{
+.project .card2 .info{
    height: 500px;
    width: 100%;
    border-radius: 15px;
@@ -234,14 +243,14 @@ span{
 
 }
 
-.project .card:hover .info{
+.project .card2:hover .info{
    animation: drag 1s forwards;
 }
 
 @keyframes drag {
    to{
       transform: translateY(-170px);
-      height: 800px;   
+      height: 100%;   
    }
    
 }
