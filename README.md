@@ -35,9 +35,9 @@ Here are some of the key projects featured in my portfolio:
 
 ## 📞 Contact
 Feel free to reach out:
-- **Email:** your-email@example.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- **GitHub:** [Your GitHub](https://github.com/your-username)
+- **Email:** anishaanishajk@gmail.com
+- **LinkedIn:** www.linkedin.com/in/anisha-j-k-profile
+- **GitHub:** https://github.com/Anisha0023
 
 ---
 💡 *Thank you for visiting my portfolio!*
