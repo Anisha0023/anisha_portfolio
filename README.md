@@ -6,11 +6,9 @@ Welcome to my portfolio! This website showcases my projects, skills, and experie
 I am Anisha JK, a passionate Full Stack Developer with expertise in Python, JavaScript, SQL, HTML, CSS, Django, and ReactJS. My portfolio highlights my journey, projects, and skills in web development and software engineering.
 
 ## 🖥️ Technologies Used
-- **Frontend:** HTML, CSS, Bootstrap, JavaScript, ReactJS
-- **Backend:** Python, Django
-- **Database:** SQLite3, MySQL
+- **Frontend:** HTML, CSS, Bootstrap
 - **Version Control:** Git, GitHub
-- **Other Tools:** VS Code, Postman
+- **Other Tools:** VS Code
 
 ## 📂 Project Highlights
 Here are some of the key projects featured in my portfolio:
